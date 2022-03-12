@@ -1,17 +1,16 @@
-# Edgebased_Arrythmiadetection
+# Edgebased_Arrythmia_detection
 #Arrythmia detection at edge nodes by using LSTM 
-#
+
+LSTM is prefferable in sequential data or time series data for edge devices due to following reasons:
+1. Ability to handle very long time lags
+2. Ability to handle noise, distributed representation and continuous values.
+3. It does not require a priori choice of finite number of states, hence, it can deal with unlimited state numbers.
+
+
 #################Code####################
 
-
-
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-
-import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
-    for filename in filenames:
-        print(os.path.join(dirname, filename))
-
-# Any results you write to the current directory are saved as output.
+Please use file "ecg-heartbeat-lstm-2 (2).ipynb" to follow step by step code.
+This code is present publically in my Kaggle profile. 
+Link:
+https://www.kaggle.com/anumnawaz/
 
